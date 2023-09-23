@@ -1,0 +1,79 @@
+
+
+
+.shopCard{
+    height: 250px;
+    width: 200px;
+    // margin: 0 1rem;
+    // border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.3s;
+    // overflow-x: auto;
+    &:hover{
+        transform: scale(1.05);
+    }
+    img{
+        width: 100%;
+        height: 50%;
+        // border: 1px solid black;
+        object-fit: contain;
+    }
+    h3{
+        margin-top: 10px;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 100%);
+    }
+}
+
+.shopItems{
+    margin-left: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.carousel-shop{
+    // height: 250px;
+    // border: 1px solid black;
+    padding: 1rem 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// .items{
+//     border: 1px solid black;
+//     width: 200px;
+//     height: 200px;
+//     // margin: 0 1rem;
+//     margin-right: 20px;
+// }
+
+.section-shop{
+    display: flex;
+    // align-items: flex-end;
+    flex-direction: column;
+    // align-items: center;
+    // padding-top: 10rem;
+    height: 90vh;
+    // border: 1px solid blueviolet;
+
+    h1{
+        margin-left: 2rem;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+    }
+
+}
